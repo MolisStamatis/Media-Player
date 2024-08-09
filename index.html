@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="./icons/icon.png" id="page-icon">
+        <title>Media Player</title>
+        <link rel="stylesheet" href="main.css">
+        <link id="styling" rel="stylesheet" href="darkmode.css">
+    </head>
+    <body>
+        <div id="fade-overlay"></div>
+        <div class="users">
+            <h1>Select Your Profile</h1>
+            <div class="user-grid">
+                <!--<div class="user-card">
+                    <img src="user1.png" alt="User 1">
+                    <p>User 1</p>
+                </div>-->
+                <div class="user-card create-new">
+                    <img src="./icons/plus.png" alt="Create User" id="icon">
+                    <p>Create User</p>
+                    <div class="card-back">
+                        <form>
+                            <label>Dark Mode:<input type="checkbox" id="theme" checked autofocus autocomplete="off"/></label>
+                            <input type="text" placeholder="New User's Name" value="New User">
+                            <button type="submit">Create</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="ui.js"></script>
+    </body>
+</html>
